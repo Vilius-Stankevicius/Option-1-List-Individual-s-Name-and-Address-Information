@@ -1,0 +1,46 @@
+import java.util.Scanner; 
+
+
+public class NameAddress {
+
+	public static void main(String[] args) {
+
+
+		Scanner scan = new Scanner(System.in); 
+		
+		
+		System.out.print("Please enter fictional person first name : ");  
+		String firstName = scan.nextLine();  
+
+		System.out.print("Please enter fictional person last name : ");
+		String lastName = scan.nextLine();
+
+		System.out.print("Please enter fictional person street address : ");
+		String streetAddress = scan.nextLine();
+
+		System.out.print("Please enter fictional person city name : ");
+		String cityName = scan.nextLine();
+		
+		System.out.print("Please enter fictional person zip code : ");
+		String zipCode = scan.nextLine();
+
+
+		System.out.println("\n     --- Fictional Person Information ---     "); 
+		System.out.println("\n - Fictional Person Name: " + firstName);
+		System.out.println(" - Fictional Person Last Name: " + lastName);
+		System.out.println(" - Fictional Person Street Address: " + streetAddress);
+		System.out.println(" - Fictional Person City Name: " + cityName);
+		System.out.print(" - Fictional Person Zip Code: " + zipCode);
+
+
+	}
+
+}
+
+
+
+
+
+
+
+
